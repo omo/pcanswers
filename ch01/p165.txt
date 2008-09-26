@@ -1,0 +1,15 @@
+I 5 6
+L 2 3 A
+S one.bmp
+G 2 3 J
+F 3 3 J
+#V 2 3 4 W
+V 2 4 3 W
+H 3 4 2 Z
+S two.bmp
+K 2 3 3 4 Y
+C
+S three.bmp
+I 2 3
+S four.bmp
+X
