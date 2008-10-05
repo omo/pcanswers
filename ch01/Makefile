@@ -1,10 +1,10 @@
 
-all: a165
+all: a168
 
 a%: p%.solver
 	./$< < ${subst .solver,, $<}.txt
 p%.solver: p%.cpp
-	g++ -Wall $< -o $@
+	g++ -g -Wall $< -o $@
 
 clean:
 	-rm *.solver
